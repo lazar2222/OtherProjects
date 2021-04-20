@@ -1,0 +1,174 @@
+# -------------------------------------------------------------------------- #
+#
+# Copyright (C) 1991-2013 Altera Corporation
+# Your use of Altera Corporation's design tools, logic functions 
+# and other software and tools, and its AMPP partner logic 
+# functions, and any output files from any of the foregoing 
+# (including device programming or simulation files), and any 
+# associated documentation or information are expressly subject 
+# to the terms and conditions of the Altera Program License 
+# Subscription Agreement, Altera MegaCore Function License 
+# Agreement, or other applicable license agreement, including, 
+# without limitation, that your use is for the sole purpose of 
+# programming logic devices manufactured by Altera and sold by 
+# Altera or its authorized distributors.  Please refer to the 
+# applicable agreement for further details.
+#
+# -------------------------------------------------------------------------- #
+#
+# Quartus II 64-Bit
+# Version 13.1.0 Build 162 10/23/2013 SJ Web Edition
+# Date created = 02:42:19  September 03, 2020
+#
+# -------------------------------------------------------------------------- #
+#
+# Notes:
+#
+# 1) The default values for assignments are stored in the file:
+#		FPGAception_assignment_defaults.qdf
+#    If this file doesn't exist, see file:
+#		assignment_defaults.qdf
+#
+# 2) Altera recommends that you do not modify this file. This
+#    file is updated automatically by the Quartus II software
+#    and any changes you make may be lost or overwritten.
+#
+# -------------------------------------------------------------------------- #
+
+
+set_global_assignment -name FAMILY "Cyclone III"
+set_global_assignment -name DEVICE EP3C16F484C6
+set_global_assignment -name TOP_LEVEL_ENTITY FPGAception
+set_global_assignment -name ORIGINAL_QUARTUS_VERSION 13.1
+set_global_assignment -name PROJECT_CREATION_TIME_DATE "02:42:19  SEPTEMBER 03, 2020"
+set_global_assignment -name LAST_QUARTUS_VERSION 13.1
+set_global_assignment -name PROJECT_OUTPUT_DIRECTORY output_files
+set_global_assignment -name MIN_CORE_JUNCTION_TEMP 0
+set_global_assignment -name MAX_CORE_JUNCTION_TEMP 85
+set_global_assignment -name ERROR_CHECK_FREQUENCY_DIVISOR 1
+set_global_assignment -name NOMINAL_CORE_SUPPLY_VOLTAGE 1.2V
+set_global_assignment -name POWER_PRESET_COOLING_SOLUTION "23 MM HEAT SINK WITH 200 LFPM AIRFLOW"
+set_global_assignment -name POWER_BOARD_THERMAL_MODEL "NONE (CONSERVATIVE)"
+set_global_assignment -name EDA_SIMULATION_TOOL "ModelSim-Altera (VHDL)"
+set_global_assignment -name EDA_OUTPUT_DATA_FORMAT VHDL -section_id eda_simulation
+set_global_assignment -name EDA_TEST_BENCH_ENABLE_STATUS TEST_BENCH_MODE -section_id eda_simulation
+set_global_assignment -name EDA_NATIVELINK_SIMULATION_TEST_BENCH Programmer -section_id eda_simulation
+set_global_assignment -name EDA_TEST_BENCH_NAME Main -section_id eda_simulation
+set_global_assignment -name EDA_DESIGN_INSTANCE_NAME NA -section_id Main
+set_global_assignment -name EDA_TEST_BENCH_MODULE_NAME Main -section_id Main
+set_global_assignment -name EDA_TEST_BENCH_RUN_SIM_FOR "1000 ns" -section_id Main
+set_global_assignment -name EDA_TEST_BENCH_NAME RE -section_id eda_simulation
+set_global_assignment -name EDA_DESIGN_INSTANCE_NAME NA -section_id RE
+set_global_assignment -name EDA_TEST_BENCH_RUN_SIM_FOR "1000 ns" -section_id RE
+set_global_assignment -name EDA_TEST_BENCH_MODULE_NAME RE -section_id RE
+set_global_assignment -name STRATIX_DEVICE_IO_STANDARD "2.5 V"
+set_global_assignment -name FLOW_ENABLE_RTL_VIEWER OFF
+set_global_assignment -name TIMEQUEST_MULTICORNER_ANALYSIS ON
+set_global_assignment -name EDA_TEST_BENCH_NAME Programmer -section_id eda_simulation
+set_global_assignment -name EDA_DESIGN_INSTANCE_NAME NA -section_id Programmer
+set_global_assignment -name EDA_TEST_BENCH_RUN_SIM_FOR "1000 ns" -section_id Programmer
+set_global_assignment -name EDA_TEST_BENCH_MODULE_NAME Programmer -section_id Programmer
+set_global_assignment -name EDA_TEST_BENCH_FILE Testbenches/Main.vhd -section_id Main
+set_global_assignment -name EDA_TEST_BENCH_FILE Testbenches/RE.vhd -section_id RE
+set_global_assignment -name EDA_TEST_BENCH_FILE Testbenches/ProgrammerTB.vhd -section_id Programmer
+set_global_assignment -name PARTITION_NETLIST_TYPE SOURCE -section_id Top
+set_global_assignment -name PARTITION_FITTER_PRESERVATION_LEVEL PLACEMENT_AND_ROUTING -section_id Top
+set_global_assignment -name PARTITION_COLOR 16764057 -section_id Top
+set_location_assignment PIN_AA15 -to I[23]
+set_location_assignment PIN_AA16 -to I[22]
+set_location_assignment PIN_AB16 -to I[21]
+set_location_assignment PIN_D2 -to I[20]
+set_location_assignment PIN_E4 -to I[19]
+set_location_assignment PIN_E3 -to I[18]
+set_location_assignment PIN_H7 -to I[17]
+set_location_assignment PIN_J7 -to I[16]
+set_location_assignment PIN_G5 -to I[14]
+set_location_assignment PIN_G4 -to I[12]
+set_location_assignment PIN_H6 -to I[10]
+set_location_assignment PIN_H5 -to I[8]
+set_location_assignment PIN_J6 -to I[6]
+set_location_assignment PIN_F1 -to I[4]
+set_location_assignment PIN_G3 -to I[2]
+set_location_assignment PIN_H2 -to I[0]
+set_location_assignment PIN_AB8 -to I[15]
+set_location_assignment PIN_AA10 -to I[13]
+set_location_assignment PIN_AB10 -to I[11]
+set_location_assignment PIN_AA13 -to I[9]
+set_location_assignment PIN_AB13 -to I[7]
+set_location_assignment PIN_AB14 -to I[5]
+set_location_assignment PIN_AA14 -to I[3]
+set_location_assignment PIN_AB15 -to I[1]
+set_location_assignment PIN_B1 -to O[31]
+set_location_assignment PIN_B2 -to O[29]
+set_location_assignment PIN_C2 -to O[27]
+set_location_assignment PIN_C1 -to O[25]
+set_location_assignment PIN_B14 -to O[24]
+set_location_assignment PIN_A14 -to O[22]
+set_location_assignment PIN_E1 -to O[23]
+set_location_assignment PIN_F2 -to O[21]
+set_location_assignment PIN_H1 -to O[19]
+set_location_assignment PIN_J3 -to O[17]
+set_location_assignment PIN_J2 -to O[15]
+set_location_assignment PIN_J1 -to O[13]
+set_location_assignment PIN_V14 -to O[11]
+set_location_assignment PIN_AA4 -to O[9]
+set_location_assignment PIN_AB4 -to O[7]
+set_location_assignment PIN_AA5 -to O[5]
+set_location_assignment PIN_AB5 -to O[3]
+set_location_assignment PIN_AA8 -to O[1]
+set_location_assignment PIN_G21 -to clk
+set_location_assignment PIN_B15 -to O[30]
+set_location_assignment PIN_A15 -to O[28]
+set_location_assignment PIN_E14 -to O[26]
+set_location_assignment PIN_C13 -to O[20]
+set_location_assignment PIN_B13 -to O[18]
+set_location_assignment PIN_A13 -to O[16]
+set_location_assignment PIN_D13 -to O[14]
+set_location_assignment PIN_F13 -to O[12]
+set_location_assignment PIN_F12 -to O[10]
+set_location_assignment PIN_G12 -to O[8]
+set_location_assignment PIN_H13 -to O[6]
+set_location_assignment PIN_H12 -to O[4]
+set_location_assignment PIN_F11 -to O[2]
+set_location_assignment PIN_E11 -to O[0]
+set_global_assignment -name SDC_FILE FPGAception.out.sdc
+set_global_assignment -name BDF_FILE FPGAception.bdf
+set_global_assignment -name BDF_FILE FPGA.bdf
+set_global_assignment -name BDF_FILE CLK_conditioner.bdf
+set_global_assignment -name VHDL_FILE Testbenches/MainT.vhd
+set_global_assignment -name VHDL_FILE Testbenches/ProgrammerTB.vhd
+set_global_assignment -name VHDL_FILE Testbenches/RisingEdgeT.vhd
+set_global_assignment -name VHDL_FILE Packages/Parameters.vhd
+set_global_assignment -name VHDL_FILE Packages/Functions.vhd
+set_global_assignment -name VHDL_FILE Packages/Modules.vhd
+set_global_assignment -name VHDL_FILE Modules/GenericMUX.vhd
+set_global_assignment -name VHDL_FILE Modules/GenericDEMUX.vhd
+set_global_assignment -name VHDL_FILE Modules/RisingEdge.vhd
+set_global_assignment -name VHDL_FILE Modules/LUT.vhd
+set_global_assignment -name VHDL_FILE Modules/MLU.vhd
+set_global_assignment -name VHDL_FILE Modules/LLayer.vhd
+set_global_assignment -name VHDL_FILE Modules/LSLICE.vhd
+set_global_assignment -name VHDL_FILE Modules/MSLICE.vhd
+set_global_assignment -name VHDL_FILE Modules/LBank.vhd
+set_global_assignment -name VHDL_FILE Modules/MBank.vhd
+set_global_assignment -name VHDL_FILE Modules/InputSelector.vhd
+set_global_assignment -name VHDL_FILE Modules/InputConditioner.vhd
+set_global_assignment -name VHDL_FILE Modules/InputBank.vhd
+set_global_assignment -name VHDL_FILE Modules/OutputSelector.vhd
+set_global_assignment -name VHDL_FILE Modules/OutputConditioner.vhd
+set_global_assignment -name VHDL_FILE Modules/OutputBank.vhd
+set_global_assignment -name VHDL_FILE Modules/InterconnectUnit.vhd
+set_global_assignment -name VHDL_FILE Modules/InterconnectBlock.vhd
+set_global_assignment -name VHDL_FILE Modules/InterconnectBank.vhd
+set_global_assignment -name VHDL_FILE Modules/OutputSection.vhd
+set_global_assignment -name VHDL_FILE Modules/InputSection.vhd
+set_global_assignment -name VHDL_FILE Modules/HybridSection.vhd
+set_global_assignment -name VHDL_FILE Modules/LogicSection.vhd
+set_global_assignment -name VHDL_FILE Modules/HybridMemorySection.vhd
+set_global_assignment -name VHDL_FILE Modules/MemorySection.vhd
+set_global_assignment -name VHDL_FILE Modules/FullInterconnect.vhd
+set_global_assignment -name VHDL_FILE Modules/FPGALogic.vhd
+set_global_assignment -name VHDL_FILE Modules/FPGAProgrammingInterface.vhd
+set_global_assignment -name VHDL_FILE Modules/FPGAProgrammer.vhd
+set_global_assignment -name VHDL_FILE Modules/FPGAProgram.vhd
+set_instance_assignment -name PARTITION_HIERARCHY root_partition -to | -section_id Top
