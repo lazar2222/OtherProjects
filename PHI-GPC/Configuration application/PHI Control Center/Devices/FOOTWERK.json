@@ -1,0 +1,30 @@
+{
+	"Name": "FOOTWERK",
+	"DeviceId": 53,
+	"IsAddon": true,
+	"AddonAddress": 0,
+	"Banks": 
+	[
+		{ 
+			"Name": "AnalogPedal",
+			"Controls":
+			[
+				{"Type": 0, "Id": 18,"X": 2,"Y": 6,"W": 265,"H": 545}
+			]
+		},
+		{ 
+			"Name": "DigitalPedals",
+			"Controls":
+			[
+				{"Type": 1, "Id": 53,"X": 341,"Y": 300,"W": 215,"H": 270},
+				{"Type": 1, "Id": 54,"X": 648,"Y": 300,"W": 215,"H": 270}
+			]
+		}
+	],
+	"PersistentVariables":
+	[
+		{"Name": "ERF", "Id": 3},
+		{"Name": "APLL", "Id": 5},
+		{"Name": "APUL", "Id": 6},
+	]
+}
